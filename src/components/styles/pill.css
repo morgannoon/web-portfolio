@@ -1,0 +1,258 @@
+.scribe {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  padding: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  height: calc(100vh - 90px);
+  background-color: white;
+  overflow: auto;
+  flex-direction: row;
+  padding: 2rem 2rem 2rem 4rem;
+}
+
+h1.red {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  font-style: normal;
+  background: linear-gradient(90deg, #D31145, #E988A2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+h2.red {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: none;
+  background: linear-gradient(90deg, #D31145, #E988A2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+h3.darkBlue {
+  font-family: "B612 Mono", monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: #514BF4;
+  text-align:left;
+}
+
+.header {
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.bullet-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.bullets {
+  font-family: "B612 Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+img.string {
+  width: 80%;
+  max-width: 25%;
+  /* keeps it from blowing up too big */
+  height: auto;
+  /* preserves aspect ratio */
+}
+
+img.epic {
+  width: 20%;
+  max-width: 25%;
+  /* caps the size */
+  height: auto;
+}
+
+/*------pillscribe2-------*/
+
+
+.gradientRed {
+  background: linear-gradient(180deg, #D31145, #514BF4);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+h1.white {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  font-style: normal;
+  color: white;
+}
+
+.stat-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  justify-content: center;
+  padding: 40px 0 10px 0;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.faded.stat {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  font-style: normal;
+  background: linear-gradient(180deg, white 50%, #ffffff51 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  top: 70px;
+}
+
+.stats text {
+  position: relative;
+  bottom: 30px;
+  width: 400px;
+  font-family: "B612 Mono", monospace;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+h1 text {
+  width: 400px;
+  font-family: "B612 Mono", monospace;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+}
+
+/*----pillscribe3-----*/
+.scribe3 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  padding: 0;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: white;
+  overflow: auto;
+  padding: 4rem 2rem 4rem 2rem;
+  text-align: center;
+}
+
+h2.solution {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: none;
+  color: #514BF4;
+}
+
+.card.benefits {
+  background: #514BF4;
+  width: 400px;
+  height: 250px;
+  display: flex;
+}
+
+.card.benefits:hover {
+  transform: translateY(0);
+}
+
+.card-wrapping {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 4rem 0 0 0;
+}
+
+h2.white {
+  color: white;
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: none;
+}
+
+text.white-centering {
+  font-family: "B612 Mono", monospace;
+  font-weight: normal;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.scribe3.reflect {
+  height: 100vh;
+  background-color: white;
+  gap: 2rem;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+  .scribe {
+    flex-wrap: wrap;
+  }
+
+  h1.red {
+    font-size: 70px;
+  }
+
+  .stat-wrapper {
+    flex-direction: column;
+  }
+
+  h1.white,
+  h1.faded-stat {
+    font-size: 70px;
+  }
+
+  .card-wrapping {
+    flex-direction: column;
+  }
+
+  img.epic {
+    width: fit-content;
+  }
+  .scribe{
+    height: fit-content;
+  }
+}

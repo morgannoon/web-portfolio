@@ -1,0 +1,285 @@
+.ireland {
+    position: relative;
+    /* allows absolute positioning inside */
+    width: 100%;
+    height: auto;
+
+}
+
+.ireland2 {
+    position: relative;
+    /* allows absolute positioning inside */
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+.ireland3 {
+    position: relative;
+    /* allows absolute positioning inside */
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+img.collage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1.white.overlapper {
+    position: absolute;
+    top: 50%;
+    /* adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* centers text */
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    width: max-content;
+}
+
+h2.white.overlapper {
+    position: absolute;
+    top: 65%;
+    /* adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* centers text */
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+h1.green {
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    background: linear-gradient(90deg, #2C8728, #ACD4AB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-style: normal;
+
+}
+
+h1.green.centering {
+    text-align: center;
+}
+
+h2.darkOrange {
+    color: #F35130;
+    font-family: "B612 Mono", monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.group-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.group {
+    font-family: "B612 Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+img.dance {
+    width: 100%;
+    height: fit-content;
+}
+
+.header-wrapper a {
+    flex-direction: column;
+    margin: 1rem 0 0 0;
+    width: max-content;
+}
+
+.text-wrapper {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    background: linear-gradient(90deg, #2C8728, #ACD4AB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-family: "B612 Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.ireland {
+    display: flex;
+    flex-direction: rows;
+
+}
+
+.location-card {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff00;
+}
+
+/* Image fills the card */
+.location-card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Text overlay */
+.location-card p {
+    color: white;
+    font-size: 30px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+
+.label-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 3rem;
+    opacity: 1;
+}
+
+.blurb-wrapper p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    color: white;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    z-index: 100;
+    font-weight: 400;
+    font-family: "B612 Mono", monospace;
+    opacity: 0;
+}
+
+
+.location-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transition: background 0.3s ease;
+    z-index: 1;
+}
+
+.location-card:hover::after {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.location-card:hover .label-wrapper {
+    opacity: 0;
+}
+
+.location-card:hover .blurb-wrapper p {
+    opacity: 1;
+}
+
+/* Wrapper for the grid of cards */
+.card-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0 0 0;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+
+.card-section {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .card-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    h1.white.overlapper {
+        font-size: 40px;
+    }
+
+    h2.white.overlapper {
+        font-size: 20px;
+    }
+
+    h1.green {
+        font-size: 70px;
+    }
+
+    h2.orange {
+        font-size: 20px;
+    }
+
+    .ireland2 {
+        flex-direction: column;
+    }
+
+    img.dance {
+        width: fit-content;
+    }
+}

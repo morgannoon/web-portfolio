@@ -1,0 +1,134 @@
+.steel {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  padding: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  height: calc(100vh - 90);
+  background-color: white;
+  overflow: auto;
+  flex-direction:row;
+  padding: 2rem 2rem 2rem 4rem;
+}
+
+h1.orange {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  font-style: normal;
+  background: linear-gradient(90deg, #FFA500, #FCCE76);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+h2.orange {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: none;
+  background: linear-gradient(90deg, #FFA500, #FCCE76);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+h3.purple{
+  font-family: "B612 Mono", monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: #6562DF;
+}
+.header {
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.header-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.bullet-wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+.bullets{
+  font-family: "B612 Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+img.string {
+  width: 80%;
+  max-width: 25%;   /* keeps it from blowing up too big */
+  height: auto;       /* preserves aspect ratio */
+}
+
+img.pghicon {
+  width: 20%;
+  max-width: 25%;   /* caps the size */
+  height: auto;
+}
+
+/*-------persona------*/
+
+.steel2{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  padding: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: left;
+  height: calc(100vh - 90);
+  background-color: white;
+  overflow: auto;
+  flex-direction:column;
+  padding: 2rem 2rem 2rem 4rem;
+}
+
+.row text{
+  display: flex;
+    flex-direction: row;
+    font-family: "B612 Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+    color: black;
+}
+
+
+/*------reflection------*/
+
+.steel2.reflect {
+  height: 100vh;
+  background-color: white;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+  .steel{
+      flex-wrap: wrap;
+  }
+  h1.orange{
+      font-size: 70px;
+  }
+  
+  }

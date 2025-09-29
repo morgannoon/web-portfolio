@@ -1,0 +1,91 @@
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  min-height: calc(100vh - 90px); /* ✅ use min-height not height */
+  background-color: white;
+  overflow: hidden;
+}
+
+
+
+h1.meet{
+  background: linear-gradient(90deg, #F35130, #E7AF15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.me {
+  display: block;       /* removes inline spacing */
+  margin: 0 auto;       /* centers it in column layout */
+  max-width: 70%;       /* won’t exceed 70% of parent */
+  height: auto;         /* keeps ratio */
+  object-fit: contain;
+}
+
+p {
+  font-family: "B612 Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.space {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.space.stack {
+  flex-direction: column;
+  width: 60%;
+}
+
+
+.space-wrap{
+  z-index: -1;
+  position: relative;
+  top: 40%;
+}
+
+/* ✅ Responsive adjustments */
+@media (max-width: 900px) {
+  .about {
+    flex-direction: column; /* stack image & text */
+    height: auto;
+    padding: 1rem;
+  }
+
+  .space {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .space.stack {
+    width: 100%; /* take full width */
+    text-align: center; /* center text */
+  }
+
+  p {
+    font-size: 16px; /* slightly smaller on small screens */
+    text-align: center;
+  }
+  .me {
+    max-width: 30%; /* give more room for text on small devices */
+  }
+}
