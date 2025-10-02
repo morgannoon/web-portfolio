@@ -9,7 +9,7 @@ export default function AboutMe() {
             <div className="space">
                 <div className="space">
                     
-                    <img className="me" src="../../../../public/images/me.png" alt="image of Morgan" />
+                    <img className="me" src="/images/me.png" alt="image of Morgan" />
                 </div>
                 <div className="space stack">
                     <h1 className="meet">Nice to meet you!</h1>
