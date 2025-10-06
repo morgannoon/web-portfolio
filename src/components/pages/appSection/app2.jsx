@@ -6,7 +6,7 @@ import FadeInSection from "../../../components/functions/fadeinSection.jsx"
 function App2(props) {
     return (
         <div className={`relative min-h-screen flex`}>
-            <div className="container projects">
+            <div id = "Work" className="container projects">
 
                 <FadeInSection>
                     <Link to="/Pillscribe">
@@ -14,7 +14,7 @@ function App2(props) {
                             <div className="box description">
                                 <h2>PillScribe</h2>
                                 <div className="text">
-                                    A medication app case study
+                                    A Medication App Case Study
                                 </div>
                             </div>
                             <img className="pill img" src="images/pillscribe.png" alt="Pill scribe app image" />
@@ -27,7 +27,7 @@ function App2(props) {
                             <div className="box description">
                                 <h2>Study Abroad in Ireland</h2>
                                 <div className="text">
-                                    2 weeks abroad summer 2025
+                                    2 Weeks Abroad Summer 2025
                                 </div>
                             </div>
                             <img className="abroad img" src="images/abroadpic.png" alt="abroad group image" />

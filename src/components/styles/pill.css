@@ -25,6 +25,8 @@ h1.red {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  display: flex;
+  align-items: flex-start;
 }
 
 h2.red {
@@ -44,7 +46,7 @@ h3.darkBlue {
   font-weight: bold;
   font-size: 20px;
   color: #514BF4;
-  text-align:left;
+  text-align: left;
 }
 
 .header {
@@ -116,6 +118,7 @@ h1.white {
   gap: 7rem;
   justify-content: center;
   padding: 40px 0 10px 0;
+  flex-wrap: wrap;
 }
 
 .stats {
@@ -225,6 +228,11 @@ text.white-centering {
   gap: 2rem;
 }
 
+@media screen and (max-width: 786px) {
+  .stat-wrapper {
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 1100px) {
 
@@ -234,10 +242,16 @@ text.white-centering {
 
   h1.red {
     font-size: 70px;
+    display: flex;
+    align-items: flex-start;
   }
 
   .stat-wrapper {
-    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .stats {
+    scale: 70%;
   }
 
   h1.white,
@@ -252,7 +266,8 @@ text.white-centering {
   img.epic {
     width: fit-content;
   }
-  .scribe{
+
+  .scribe {
     height: fit-content;
   }
 }

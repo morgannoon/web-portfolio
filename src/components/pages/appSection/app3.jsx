@@ -13,7 +13,7 @@ function App3(props) {
                             <div className="box description">
                                 <h2>Portal Comet Parkour</h2>
                                 <div className="text">
-                                    An Itch.io parkour game
+                                    An Itch.io Parkour Game
                                 </div>
                             </div>
                             <img className="portal img" src="images/portal.png" alt="parkour desktop image" />
@@ -26,7 +26,7 @@ function App3(props) {
                             <div className="box description">
                                 <h2>Steel Strings</h2>
                                 <div className="text">
-                                    A philanthropic ticketing app case study
+                                    A Philanthropic Ticketing App Case Study
                                 </div>
                             </div>
                             <img className="pgh img" src="images/pghapp.png" alt="Steel Strings app image" />

@@ -1,10 +1,29 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./styles/nav.css";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleWorkClick = (e) => {
+    e.preventDefault();
+    setIsOpen(false);
+
+    if (location.pathname === "/") {
+      const el = document.getElementById("Work");
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate("/");
+
+      setTimeout(() => {
+        const el = document.getElementById("Work");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 300);
+    }
+  };
 
   return (
     <div className="box nav">
@@ -20,12 +39,17 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <HashLink to="/#Work" onClick={() => setIsOpen(false)}>
+            <a href="/#Work" onClick={handleWorkClick}>
               Work
-            </HashLink>
+            </a>
           </li>
           <li>
-            <a href="images/resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
+            <a
+              href="images/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+            >
               Resume
             </a>
           </li>

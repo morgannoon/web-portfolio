@@ -93,7 +93,10 @@ function App1() {
         </h1>
         <div className="text">Graduating December 2025 from the University of Pittsburgh</div>
         <h2>Innovation Needs Empathy</h2>
-        <div className="text">Recently @PNC</div>
+        <div className="text">Recently{" "}
+          <a  href="https://www.pnc.com/en/about-pnc.html?lnksrc=topnav" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>@PNC</a>
+          {" "} HQ
+        </div>
       </div>
     </div>
   );
