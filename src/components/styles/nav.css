@@ -62,6 +62,12 @@ nav ul li a:hover {
   border-radius: 4px;
 }
 
+.nav-logo{
+  max-width: 40%;
+  height: auto;
+}
+
+
 
 /* Mobile styles */
 @media (max-width: 768px) {
