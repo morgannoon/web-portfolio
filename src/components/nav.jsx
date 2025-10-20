@@ -28,7 +28,7 @@ export default function Nav() {
   return (
     <div className="box nav">
       <HashLink to="/">
-        <img className = "nav-logo" src="public/logo.svg" alt="logo" />
+        <img className = "nav-logo" src="/logo.svg" alt="logo" />
       </HashLink>
 
       <nav className={isOpen ? "open" : ""}>
