@@ -28,7 +28,7 @@ export default function Nav() {
   return (
     <div className="box nav">
       <HashLink to="/">
-        <img className = "nav-logo" src="public/logo.svg" alt="logo" />
+        <img className = "nav-logo" src="/logo.svg" alt="logo" />
       </HashLink>
 
       <nav className={isOpen ? "open" : ""}>
@@ -38,11 +38,18 @@ export default function Nav() {
               About Me
             </Link>
           </li>
+          <text className = "hide">
+            |
+          </text>
+          
           <li>
             <a href="/#Work" onClick={handleWorkClick}>
               Work
             </a>
           </li>
+          <text className = "hide">
+            |
+          </text>
           <li>
             <a
               href="images/resume.pdf"

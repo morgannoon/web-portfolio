@@ -7,16 +7,16 @@ export default function Pillscribe1() {
                 <div className="header-wrapper">
                     <div className="header">
                         <h1 className="red">
-                            Steel Strings
+                            PillScribe
                         </h1>
                         <h2 className="red">
-                            Case Study
+                            Prototype
                         </h2>
                     </div>
                     <div className="bullet-wrapper">
                         <div className="bullets">
                             <h3 className="darkBlue">TEAM</h3>
-                            <text>4 People</text>
+                            <text>5 People</text>
                         </div>
                         <div className="bullets">
                             <h3 className="darkBlue">TOOLS</h3>
@@ -24,16 +24,16 @@ export default function Pillscribe1() {
                         </div>
                         <div className="bullets">
                             <h3 className="darkBlue">TIMELINE</h3>
-                            <text>2 Weeks</text>
+                            <text>16 Weeks</text>
                         </div>
                     </div>
                     <div className="bullet-wrapper">
                         <div className="bullets">
                             <h3 className="darkBlue">CHALLENGE</h3>
-                            <text>As part of a fictional case study for a school project,
-                                we designed a mobile ticketing system for a an intimate music
-                                venue in Pittsburgh. <strong>How do we create a seamless ticketing experience
-                                    while allowing users to donate to causes they care about?</strong>
+                            <text>This project explores the growing issue of medication 
+                                errors in the U.S. healthcare system. Our team set out to design a solution 
+                                that improves accuracy and safety in hospitals.<strong>How might we create an application for 
+                                    hospitals that helps reduce medication errors?</strong>
                             </text>
                         </div>
                     </div>

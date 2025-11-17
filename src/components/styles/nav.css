@@ -34,6 +34,7 @@ nav ul li a {
   text-decoration: none;
   font-family: "MuseoModerno", sans-serif;
   font-size: 24px;
+  font-weight: 250;
   cursor: pointer;
   color: white;
   transition: opacity 0.2s;
@@ -63,8 +64,14 @@ nav ul li a:hover {
 }
 
 .nav-logo{
-  max-width: 40%;
+  max-width: 45%;
   height: auto;
+}
+nav text{
+  color: white;
+}
+nav.open .hide {
+  display: none;
 }
 
 

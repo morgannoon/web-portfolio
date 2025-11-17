@@ -9,7 +9,7 @@
   flex-direction: row;
   align-items: center;
   height: calc(100vh - 90px);
-  background-color: white;
+  background: white;
   overflow: auto;
   flex-direction: row;
   padding: 2rem 2rem 2rem 4rem;
@@ -17,7 +17,7 @@
 
 h1.red {
   font-family: "MuseoModerno", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 100px;
   font-style: normal;
   background: linear-gradient(90deg, #D31145, #E988A2);
@@ -31,7 +31,7 @@ h1.red {
 
 h2.red {
   font-family: "MuseoModerno", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 40px;
   font-style: none;
   background: linear-gradient(90deg, #D31145, #E988A2);
@@ -42,7 +42,7 @@ h2.red {
 }
 
 h3.darkBlue {
-  font-family: "B612 Mono", monospace;
+  font-family: "Sansation", sans-serif;
   font-weight: bold;
   font-size: 20px;
   color: #514BF4;
@@ -68,9 +68,8 @@ h3.darkBlue {
 }
 
 .bullets {
-  font-family: "B612 Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
   font-size: 20px;
   color: black;
   display: flex;
@@ -106,7 +105,7 @@ img.epic {
 
 h1.white {
   font-family: "MuseoModerno", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 100px;
   font-style: normal;
   color: white;
@@ -129,7 +128,7 @@ h1.white {
 
 h1.faded.stat {
   font-family: "MuseoModerno", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 100px;
   font-style: normal;
   background: linear-gradient(180deg, white 50%, #ffffff51 75%);
@@ -145,17 +144,17 @@ h1.faded.stat {
   position: relative;
   bottom: 30px;
   width: 400px;
-  font-family: "B612 Mono", monospace;
-  font-weight: normal;
-  font-size: 20px;
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
   color: white;
   text-align: center;
+  font-size:25px;
 }
 
 h1 text {
   width: 400px;
-  font-family: "B612 Mono", monospace;
-  font-weight: normal;
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
   font-size: 20px;
   color: white;
 }
@@ -168,7 +167,7 @@ h1 text {
   flex-wrap: nowrap;
   gap: 1rem;
   padding: 0;
-  width: 100%;
+  width: auto;
   flex-direction: column;
   align-items: center;
   height: auto;
@@ -180,7 +179,7 @@ h1 text {
 
 h2.solution {
   font-family: "MuseoModerno", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 40px;
   font-style: none;
   color: #514BF4;
@@ -188,7 +187,8 @@ h2.solution {
 
 .card.benefits {
   background: #514BF4;
-  width: 400px;
+  min-width: auto;
+  max-width: 400px;
   height: 250px;
   display: flex;
 }
@@ -207,14 +207,14 @@ h2.solution {
 h2.white {
   color: white;
   font-family: "MuseoModerno", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 30px;
   font-style: none;
 }
 
 text.white-centering {
-  font-family: "B612 Mono", monospace;
-  font-weight: normal;
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
   font-size: 20px;
   color: white;
   padding: 10px;
@@ -228,13 +228,14 @@ text.white-centering {
   gap: 2rem;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 886px) {
   .stat-wrapper {
     flex-direction: column;
   }
+  
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
 
   .scribe {
     flex-wrap: wrap;

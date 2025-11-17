@@ -17,7 +17,7 @@
 
 h1.purple {
     font-family: "MuseoModerno", sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 100px;
     font-style: normal;
     background: linear-gradient(90deg, #401C9B, #B3B2DC);
@@ -29,7 +29,7 @@ h1.purple {
 
 h2.purple {
     font-family: "MuseoModerno", sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 40px;
     font-style: none;
     background: linear-gradient(90deg, #401C9B, #B3B2DC);
@@ -40,7 +40,7 @@ h2.purple {
 }
 
 h3.green {
-    font-family: "B612 Mono", monospace;
+    font-family: "Sansation", sans-serif;
     font-weight: bold;
     font-size: 20px;
     color: #7ADB6B;
@@ -65,8 +65,8 @@ h3.green {
 }
 
 .bullets {
-    font-family: "B612 Mono", monospace;
-    font-weight: 400;
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;
     color: black;
@@ -109,7 +109,7 @@ img.parkourComputer {
 
 h1.greenPurple {
     font-family: "MuseoModerno", sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 100px;
     font-style: normal;
     background: linear-gradient(90deg, #7ADB6B, #B3B2DC 80%);
@@ -123,8 +123,7 @@ h1.greenPurple {
     display: flex;
     flex-direction: column;
 }
-
-.text-wrap {
+.text-wrap{
     justify-content: space-around;
     display: flex;
     flex-direction: row;
@@ -134,8 +133,22 @@ h1.greenPurple {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    font-family: "B612 Mono", monospace;
-    font-weight: 400;
+    font-family: "Sansation", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+}
+.text-wrap text{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-family: "Sansation", sans-serif;
+    font-weight: bold;
     font-style: normal;
     font-size: 24px;
 }
@@ -151,7 +164,7 @@ h1.greenPurple {
 
 .breakdown h1 {
     font-family: "MuseoModerno", sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 160px;
     font-style: normal;
     align-content: center;
@@ -175,8 +188,8 @@ h1.greenPurple {
 .text-wrapping {
     display: flex;
     flex-direction: column;
-    font-family: "B612 Mono", monospace;
-    font-weight: 400;
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;
     text-align: left;
@@ -201,8 +214,8 @@ img.place {
 text {
     display: flex;
     flex-direction: column;
-    font-family: "B612 Mono", monospace;
-    font-weight: 400;
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;
     text-align: left;

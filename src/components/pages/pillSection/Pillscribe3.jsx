@@ -7,7 +7,7 @@ export default function Pillscribe2() {
 
             <div className="scribe3">
                 <h2 className="solution">
-                    Our solution is an Epic healthcare records application
+                    We developed an Epic EHR application
                 </h2>
                 <h2 className="solution">
                     designed to prevent medication errors
@@ -24,9 +24,9 @@ export default function Pillscribe2() {
                             Prevents Death & Poor Patient Outcomes
                         </h2>
                         <text className="white-centering">
-                            No misidentification
-                            No misinterpretation
-                            Personalized care[5]
+                            No misidentification<br></br>
+                            No misinterpretation<br></br>
+                            Personalized care[5]<br></br>
                             Faster interventions[5]
                         </text>
                     </div>
@@ -35,7 +35,7 @@ export default function Pillscribe2() {
                             Improves Hospital Expenses
                         </h2>
                         <text className="white-centering">
-                            Reduce medication error cost[5]
+                            Reduce medication error cost[5]<br></br>
                             Low legal risks[5]
                         </text>
                     </div>
@@ -44,7 +44,7 @@ export default function Pillscribe2() {
                             Enhances Workflow
                         </h2>
                         <text className="white-centering">
-                            Simplified user interface
+                            Simplified user interface<br></br>
                             Integrates with existing EMR/EHR systems & devices[8, 9, 10]
                         </text>
                     </div>

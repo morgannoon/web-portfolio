@@ -18,7 +18,6 @@ export default function AboutMe() {
                         science with a focus in UX design and cybersecurity
                         <strong> graduating December 2025.</strong>
                     </p>
-                    <br />
                     <p>
                         I’ve been involved in all sorts of arts since I was three!
                         I’ve played the violin, trumpet, and flute.

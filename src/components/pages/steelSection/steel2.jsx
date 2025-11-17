@@ -45,15 +45,14 @@ export default function steel2() {
                             Reflection
                         </h1>
                         <text>
-                            Building a Unity game from scratch was both challenging and rewarding.
-                            I especially enjoyed designing the environment, fine-tuning the camera work, and bringing the game
-                            to life through audio and editing.
-                            These creative aspects allowed me to fully immerse myself in shaping the player’s experience.
+                        This was a highly collaborative process. We delegated tasks 
+                        based on each member’s strengths, which made our workflow efficient and
+                         kept progress steady. The user persona we developed early on helped guide our decisions and ensured we 
+                         didn’t overlook important features or perspectives. 
                             <br />
-                            However, working on the controls and physics proved to be more difficult,
-                            requiring extra problem-solving and troubleshooting. In the end, the process gave me a deeper
-                            appreciation for the balance between technical implementation and creative design in game development.
-                        </text>
+                            We regularly shared our drafts, gathered feedback, and made adjustments 
+                            to keep the design aligned with our shared vision. This iterative approach not only strengthened the final 
+                            product but also improved our communication and adaptability as a team. </text>
                     </div>
                     <h3 className="purple">Team Credit</h3>
                     <text>Luke Cusato</text>

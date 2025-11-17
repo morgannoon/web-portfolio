@@ -11,7 +11,7 @@ export default function steel1() {
                             Steel Strings
                         </h1>
                         <h2 className="orange">
-                            Case Study
+                            Prototype
                         </h2>
                     </div>
                     <div className="bullet-wrapper">
@@ -31,8 +31,7 @@ export default function steel1() {
                     <div className="bullet-wrapper">
                         <div className="bullets">
                             <h3 className="purple">CHALLENGE</h3>
-                            <text>As part of a fictional case study for a school project,
-                                we designed a mobile ticketing system for a an intimate music
+                            <text>We were tasked with designing a mobile ticketing system for a an intimate music
                                 venue in Pittsburgh. <strong>How do we create a seamless ticketing experience
                                     while allowing users to donate to causes they care about?</strong>
                             </text>
